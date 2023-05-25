@@ -7,16 +7,16 @@ install_requires = [t.strip() for t in tests_require]
 
 with open("README.md") as f:
     long_description = f.read()
-      
+
 setup(
-    name="spacv",
+    name="spacv-lusk",
     version="0.0.21",
     description="Spatial cross-validation in Python",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/SamComber/spacv",
-    author="Sam Comber",
-    author_email="sam.comber@hotmail.co.uk",
+    url="https://github.com/dluks/spacv-lusk",
+    author="Sam Comber, Daniel Lusk",
+    author_email="sam.comber@hotmail.co.uk, lusk@uni-potsdam.de",
     license="3-Clause BSD",
     packages=["spacv"],
     package_data={"": ["requirements.txt"]},
